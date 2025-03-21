@@ -40,7 +40,6 @@
 
 //   }
 
-//   Task-1
 //   console.log(a.Datastructures[1].Name)
 //   console.log(a.Datastructures[0].Name)
 //   console.log(a.xyz.Name)
@@ -65,6 +64,7 @@
 // {
 
 // "Topic": "HTML",
+// Task-2
 
 // "course": "Beginer",
 
@@ -138,37 +138,79 @@
 
 // ------------------------------------------------------------------------------------
 // Task-6
-// function func1(){
-//     arr = ['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce']
+// function transformFirstAndLast(arr){
 //     obj = {}
 //     obj[arr[0]] = arr[arr.length-1]
 //     console.log(obj)
 // }
 
-// func1()
+// transformFirstAndLast(['Queen', 'Elizabeth', 'Of Hearts', 'Beyonce'])
 // ------------------------------------------------------------------------------------
 
 
 // ------------------------------------------------------------------------------------
 // Task-7
+
+// function func2(person){
+
+//     // return person.sort((a,b) => b.age - a.age)[0]  // If positive than it will swap else it will remain same
+//     // return person.sort((a,b) => a.name.localeCompare(b.name)) // IMP for sorting alphabetical wise
+// }
 // const person = 
 // [
 //     {name: "PQR", age: 38},
 //     {name: "ABC", age: 35},
 //     {name: "XYZ", age: 47}
 // ]
-// var name1 = null;
-// var age = 0;
-// for (i in person){
-//     if (person[i].age>age){
-//         age = person[i].age
-//         name1 = person[i].name
-//     }
-// }
-// console.log(name1,age)
+
+// console.log(func2(person))
 
 // ------------------------------------------------------------------------------------
 
+
+// ------------------------------------------------------------------------------------
+
+// Task-8
+
+// function func3(test){
+
+//     list = test.division1.name.concat(test.division2.name).sort()
+//     obj={}
+//     obj['obj1']=list
+//     return obj
+// }
+// var test = { "division1": {
+//     "name":["Z","B","H"]
+//     },
+//     "division2": {
+//     "name" :["Y","A","G"]
+//     }
+//     }
+// console.log(func3(test))
+// ------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------
+// Task-9
+
+// function func4(student){
+//     return student.sort((a,b) => b.height - a.height)  // if a.height-b.height(asc) and b.height-a.height(desc)
+// }
+
+// const student = [
+//         {
+//             name: "ABC", height: 5.7   
+//         },
+//         {
+//             name: "PQR", height: 6.0
+//         },
+//         {
+//             name: "XYZ", height: 6.2
+//         }
+//     ]
+
+// console.log(func4(student))
+
+// ------------------------------------------------------------------------------------
 
 // ------------------------------------------------------------------------------------
 // Task-10
