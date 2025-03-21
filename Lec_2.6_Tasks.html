@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        size = 15
+        function func(size){
+            obj = document.getElementById('demo')
+            obj.innerHTML = 'Hello'
+            obj.style.color = 'blue'
+            obj.style.fontSize = size + 'px'
+        }
+
+        i = setInterval(function(){
+            func(size++)
+            if(size > 50){
+                clearInterval(i)
+            }
+        },100)
+    </script>
+</body>
+</html>

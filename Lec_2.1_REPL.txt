@@ -1,0 +1,44 @@
+10
+> var y=10
+undefined
+> repl.repl.ignoreUndefined=true
+true
+> var y=10
+> x+y
+20
+> console.log("hello)
+console.log("hello)
+            ^^^^^^^
+
+Uncaught SyntaxError: Invalid or unexpected token
+> console.log("hello")
+hello
+>
+> count=0
+0
+> do{
+... count++
+... console.log(count)
+... }while(count<10)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+> .editor
+// Entering editor mode (Ctrl+D to finish, Ctrl+C to cancel)
+const fun=(a,b)=>{
+console.log("Hello")
+return a+b
+}
+console.log(fun(10,20))
+
+Hello
+30
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
