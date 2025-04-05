@@ -1,0 +1,5 @@
+var {sum,sub,mul,div} = require("./Lec_6.7_OwnModule.js")
+console.log(sum(10,15))
+console.log(sub(10,15))
+console.log(mul(10,15))
+console.log(div(10,15))
